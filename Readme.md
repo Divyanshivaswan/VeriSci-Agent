@@ -45,14 +45,17 @@ VeriSci-Agent/
 ├── rag_engine.py             # Live NCBI PubMed REST API retrieval client
 └── README.md                 # System documentation
 
+```
+---
 
------
-##Steps
-**1. Clone the Repository**
+
+## **1. Clone the Repository**
+'''bash
 git clone [https://github.com/Divyanshivaswan/VeriSci-Agent.git](https://github.com/Divyanshivaswan/VeriSci-Agent.git)
 cd VeriSci-Agent
 
 **2. Create and Activate Virtual Environment**
+'''bash
 python -m venv venv
 # On Windows PowerShell:
 .\venv\Scripts\Activate
@@ -60,7 +63,9 @@ python -m venv venv
 source venv/bin/activate
 
 **3. Install Dependencies**
+'''bash
 pip install streamlit pandas reportlab requests
 
 **4. Launch the Console**
+'''bash
 streamlit run app.py
