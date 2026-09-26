@@ -54,8 +54,8 @@ VeriSci-Agent/
 git clone [https://github.com/Divyanshivaswan/VeriSci-Agent.git](https://github.com/Divyanshivaswan/VeriSci-Agent.git)
 cd VeriSci-Agent
 
-**2. Create and Activate Virtual Environment**
-python -m venv venv \
+**2. Create and Activate Virtual Environment** \
+python -m venv venv 
 
  On Windows PowerShell: \
 .\venv\Scripts\Activate
