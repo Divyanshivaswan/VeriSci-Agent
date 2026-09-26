@@ -46,6 +46,8 @@ VeriSci-Agent/
 └── README.md                 # System documentation
 
 
+-----
+##Steps
 **1. Clone the Repository**
 git clone [https://github.com/Divyanshivaswan/VeriSci-Agent.git](https://github.com/Divyanshivaswan/VeriSci-Agent.git)
 cd VeriSci-Agent
