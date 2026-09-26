@@ -50,7 +50,7 @@ VeriSci-Agent/
 
 
 ## **1. Clone the Repository**
-'''bash
+
 git clone [https://github.com/Divyanshivaswan/VeriSci-Agent.git](https://github.com/Divyanshivaswan/VeriSci-Agent.git)
 cd VeriSci-Agent
 
@@ -64,9 +64,9 @@ python -m venv venv
 source venv/bin/activate
 
 **3. Install Dependencies**
-'''bash
+
 pip install streamlit pandas reportlab requests
 
 **4. Launch the Console**
-'''bash
+
 streamlit run app.py
