@@ -1,4 +1,4 @@
-from agents.audit_subagents import (
+from .audit_subagents import (
     FactCheckerAgent,
     PatentAuditorAgent,
     ProtocolSafetyAgent,
