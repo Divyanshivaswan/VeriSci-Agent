@@ -3,7 +3,7 @@ from rag_engine import PubMedRetrievalEngine
 
 class FactCheckerAgent:
     def __init__(self):
-        self.rag = PubMedRAGEngine()
+        self.rag = PubMedRetrievalEngine()
 
     def analyze(self, text: str) -> dict:
         sentences = [s.strip() for s in re.split(r'[.!?]+', text) if s.strip()]
