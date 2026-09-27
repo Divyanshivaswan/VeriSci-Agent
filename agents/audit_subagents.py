@@ -1,5 +1,5 @@
 import re
-from rag_engine import PubMedRAGEngine
+from ..rag_engine import PubMedRAGEngine
 
 class FactCheckerAgent:
     def __init__(self):
